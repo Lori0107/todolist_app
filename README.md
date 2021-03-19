@@ -7,14 +7,14 @@ TodoList APP
   * To-do List : Liste de tâches à réaliser.
 
   * To-do : Tâche à réaliser.
-  #### Éléments principaux
+  #### Interface
 
   L'application se compose des éléments suivants :
   * Input principal - Permet l'entrée de To-do.
 
-  * To-do List      - S'affiche sous l'input principal, présente les To-do créées.
+  * To-do List - S'affiche sous l'input principal, présente les To-do créées.
   
-  * Navbar          - Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
+  * Navbar - Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
   #### Fonctionnalités
 
   L'application propose diverses fonctionnalités :
