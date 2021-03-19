@@ -1,13 +1,13 @@
 TodoList APP
 ============
 
-  L'application TodoList est une application permettant de créer une "To-do List".
-  C'est un outil simple et efficace pour gérer les tâches d'un projet.
-  #### Notions à connaître
+L'application TodoList est une application permettant de créer une "To-do List".<br>
+ C'est un outil simple et efficace pour gérer les tâches d'un projet.
+#### Notions à connaître
 
-  * To-do List : Liste de tâches à réaliser.
-
-  * To-do : Tâche à réaliser.
+To-do List | To-do |
+--- | --- |
+Liste de tâches à réaliser | Tâche à réaliser |
 
 Fonctionnement technique
 ------------------------
