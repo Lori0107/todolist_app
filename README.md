@@ -16,8 +16,8 @@ Fonctionnement technique
 
   #### Testing
 
-  L’application dispose de tests gérés via la framework Jasmine.
-  
+  > L’application dispose de tests gérés via la framework Jasmine.
+
 Installation du projet
 ----------------------
   ```javascript
