@@ -2,17 +2,17 @@ TodoList APP
 ============
 
   L'application TodoList est une application permettant de créer une "To-do List".
-  ### Notions à connaître
+  #### Notions à connaître
 
   * To-do List : Liste de tâches à réaliser.
   * To-do : Tâche à réaliser.
-  ### Éléments principaux
+  #### Éléments principaux
 
   L'application se compose des éléments suivants :
   * Input principal : Permet l'entrée de To-do.
   * To-do List : S'affiche sous l'input principal, présente les To-do créées.
   * Navbar : Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
-  ### Fonctionnalités
+  #### Fonctionnalités
 
   L'application propose diverses fonctionnalités :
 
@@ -46,13 +46,13 @@ TodoList APP
     * All : Permet d'afficher toutes les To-do.
     * Active : Permet d'afficher les To-do non réalisées.
     * Completed : Permet d'afficher les To-do réalisées.
-________________________
+
 Fonctionnement technique
 ------------------------
 
   L'application utilise les langages HTML/CSS/Javascript.
 
-  ### Organisation des fichiers
+  #### Organisation des fichiers
     
   - App.js - Permet l’initialisation de l’application.
 
@@ -68,15 +68,16 @@ Fonctionnement technique
     
   - Helper.js - Regroupe les fonctions ‘helpers’, facilitant certains aspects de la logique du code (Gestion des évènements sur l’interface utilisateur, récupération d’éléments du DOM,…).
 
-  ### Ajout de nouvelles fonctionnalités
+  #### Ajout de nouvelles fonctionnalités
 
   
 
-  ### Testing
+  #### Testing
 
   L’application dispose de tests. Il est fortement recommandé de mettre en place des tests à chaque nouvelle fonctionnalité ajoutée à cette application. Ils permettent de s’assurer du bon fonctionnement de la fonctionnalité créée, mais aussi de vérifier que celle-ci ne ‘casse’ pas certains comportements déjà existants sur le l'application.
   Les tests (présents dans le dossier ./test) sont réalisés via le framework Jasmine.
-______________________
+
+
 Installation du projet
 ----------------------
 
