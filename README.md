@@ -4,8 +4,8 @@ TodoList APP
   L'application TodoList est une application permettant de créer une "To-do List".
   ### Notions à connaître
 
-  To-do List - Liste de tâches à réaliser.
-  To-do - Tâche à réaliser.
+  * To-do List : Liste de tâches à réaliser.
+  * To-do : Tâche à réaliser.
   ### Éléments principaux
 
   L'application se compose des éléments suivants :
@@ -16,7 +16,7 @@ TodoList APP
 
   L'application propose diverses fonctionnalités :
 
-  * Création d’une To-do (Choix d’un titre)
+  * Création d’une To-do
 
     En utilisant l'input principal de l'application, renseignez un nom à votre To-do et validez en cliquant sur la touche "Entrée" de votre clavier ou hors du champs de l'input.
 
@@ -42,10 +42,10 @@ TodoList APP
 
   * Filtre d’affichage des Todos
 
-    Trois boutons de filtre sont présents au centre de la Navbar:
-    - 'All': Permet d'afficher toutes les To-dos.
-    - 'Active': Permet d'afficher les To-dos non réalisées.
-    - 'Completed': Permet d'afficher les To-dos réalisées.
+    Trois boutons de filtre sont présents au centre de la Navbar :
+    - All : Permet d'afficher toutes les To-dos.
+    - Active : Permet d'afficher les To-dos non réalisées.
+    - Completed : Permet d'afficher les To-dos réalisées.
 
 Fonctionnement technique
 ------------------------
