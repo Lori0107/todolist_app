@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+}
+
+.toggle-all-container {
+  position: relative;
+  width: 60px;
+}
+
+.toggle-all {
+  z-index: 1;
+  width: 90% !important;
+  height: 90% !important;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.toggle-all + label {
+  display: flex;
+  z-index: 0;
+  top: 0px !important;
+  left: 0px !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.toggle-all + label:before {
+  margin: auto;
+  padding: 0px !important;
+}
+
+.new-todo {
+  padding: 16px !important;
+}
