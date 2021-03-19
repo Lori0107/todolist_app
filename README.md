@@ -9,9 +9,17 @@ TodoList APP
   ### Éléments principaux
 
   L'application se compose des éléments suivants :
-  * Input principal - Permettant l'entrée de To-do.
-  * To-do List - S'affiche sous l'input principal, présentant les To-do créées.
-  * Navbar - Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
+  * Input principal
+  
+  > Permettant l'entrée de To-do.
+  
+  * To-do List
+  
+  > S'affiche sous l'input principal, présentant les To-do créées.
+  
+  * Navbar
+  
+  > Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
   ### Fonctionnalités
 
   L'application propose diverses fonctionnalités :
