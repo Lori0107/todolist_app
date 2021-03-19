@@ -9,43 +9,37 @@ TodoList APP
   ### Éléments principaux
 
   L'application se compose des éléments suivants :
-  * Input principal - Permettant l'entrée de To-dos.
-  * To-do List - S'affiche sous l'input principal, présentant les To-dos créées.
-  * Navbar - Présente sous la To-do List. Elle affiche le nombre de To-dos à réaliser et un filtre d'affichage des To-dos (Toutes les To-dos, To-dos à réaliser ou To-dos réalisées).
+  * Input principal - Permettant l'entrée de To-do.
+  * To-do List - S'affiche sous l'input principal, présentant les To-do créées.
+  * Navbar - Présente sous la To-do List. Elle affiche le nombre de To-do à réaliser et un filtre d'affichage des To-do (Toutes les To-do, To-do à réaliser ou To-do réalisées).
   ### Fonctionnalités
 
   L'application propose diverses fonctionnalités :
 
   * Création d’une To-do
-
-    En utilisant l'input principal de l'application, renseignez un nom à votre To-do et validez en cliquant sur la touche "Entrée" de votre clavier ou hors du champs de l'input.
+  > En utilisant l'input principal de l'application, renseignez un nom à votre To-do et validez en cliquant sur la touche "Entrée" de votre clavier ou hors du champs de l'input.
 
   * Modification d’un titre d’une Todo.
-
-    Un double clic sur le nom d'une To-do vous permettra de modifier son nom.
+  > Un double clic sur le nom d'une To-do vous permettra de modifier son nom.
 
   * Modification de l’état d’une Todo (non réalisée/réalisée)
-
-    Pour indiquer qu'une To-do a été réalisée, ou inversement, cochez/décochez la checkbox circulaire située à gauche du nom de la To-do.
+  > Pour indiquer qu'une To-do a été réalisée, ou inversement, cochez/décochez la checkbox circulaire située à gauche du nom de la To-do.
 
   * Modification multiple des états de Todos
-
-    Pour indiquer que toutes les To-dos ont été réalisées, cliquez sur le logo de flèche situé à gauche de l'input principal.
+  > Pour indiquer que toutes les To-do ont été réalisées, cliquez sur le logo de flèche situé à gauche de l'input principal.
 
   * Suppression d’une Todo
-
-    Au survol sur un nom de To-do, cliquer sur la croix rouge située à droite du nom de la To-do.
+  > Au survol sur un nom de To-do, cliquer sur la croix rouge située à droite du nom de la To-do.
 
   * Suppression multiple de Todos à l’état ‘réalisée’
-
-    Lorsqu'au moins une To-do est à l'état 'réalisée', un lien affichant 'Clear completed' apparaît sur la droite de la Navbar. Au clic sur ce lien, toutes les To-dos à l'état 'réalisées' seront supprimées.
+  > Lorsqu'au moins une To-do est à l'état 'réalisée', un lien affichant 'Clear completed' apparaît sur la droite de la Navbar. Au clic sur ce lien, toutes les To-do à l'état 'réalisées' seront supprimées.
 
   * Filtre d’affichage des Todos
 
     Trois boutons de filtre sont présents au centre de la Navbar :
-    - All : Permet d'afficher toutes les To-dos.
-    - Active : Permet d'afficher les To-dos non réalisées.
-    - Completed : Permet d'afficher les To-dos réalisées.
+    - All : Permet d'afficher toutes les To-do.
+    - Active : Permet d'afficher les To-do non réalisées.
+    - Completed : Permet d'afficher les To-do réalisées.
 
 Fonctionnement technique
 ------------------------
