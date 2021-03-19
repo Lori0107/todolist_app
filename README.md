@@ -81,9 +81,9 @@ Fonctionnement technique
 Installation du projet
 ----------------------
   ```javascript
-  - npm install
+  npm install
 
-  - (Mettre en place une commande pour ouvrir la page de tests Jasmine)
+  (Mettre en place une commande pour ouvrir la page de tests Jasmine)
 
-  - (Réussir à obtenir le taux de coverage de l’application)
+  (Réussir à obtenir le taux de coverage de l’application)
   ```
