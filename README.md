@@ -46,7 +46,7 @@ TodoList APP
     * All : Permet d'afficher toutes les To-do.
     * Active : Permet d'afficher les To-do non réalisées.
     * Completed : Permet d'afficher les To-do réalisées.
-
+________________________
 Fonctionnement technique
 ------------------------
 
@@ -76,8 +76,7 @@ Fonctionnement technique
 
   L’application dispose de tests. Il est fortement recommandé de mettre en place des tests à chaque nouvelle fonctionnalité ajoutée à cette application. Ils permettent de s’assurer du bon fonctionnement de la fonctionnalité créée, mais aussi de vérifier que celle-ci ne ‘casse’ pas certains comportements déjà existants sur le l'application.
   Les tests (présents dans le dossier ./test) sont réalisés via le framework Jasmine.
-
-
+______________________
 Installation du projet
 ----------------------
 
