@@ -43,9 +43,9 @@ TodoList APP
   * Filtre d’affichage des Todos
   
   > Trois boutons de filtre sont présents au centre de la Navbar :
-  * All : Permet d'afficher toutes les To-do.
-  * Active : Permet d'afficher les To-do non réalisées.
-  * Completed : Permet d'afficher les To-do réalisées.
+    * All : Permet d'afficher toutes les To-do.
+    * Active : Permet d'afficher les To-do non réalisées.
+    * Completed : Permet d'afficher les To-do réalisées.
 
 Fonctionnement technique
 ------------------------
