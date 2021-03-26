@@ -15,6 +15,5 @@
     "karma-chrome-launcher": "^3.1.0"
   },
   "scripts": {
-    "test": "karma start karma.conf.js"
   }
 }
