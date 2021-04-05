@@ -159,7 +159,6 @@
 					break;
 				case "toggleAll":
 					$on(this.$toggleAll, 'click', function () {
-						// Quand est-il utilisé ???
 						handler({ completed: this.checked });
 					});
 					break;

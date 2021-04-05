@@ -73,16 +73,10 @@
 			callback = callback || function () { };
 
 			// Generate an ID
-			// Old way
-			// var newId = ""; 
-			// var charset = "0123456789";
-			// for (var i = 0; i < 6; i++) {
-			//  	newId += charset.charAt(Math.floor(Math.random() * charset.length));
-			// }
 			// If an ID was actually given, find the item and update each property
 			if(id) {
 				todos.map(todo => {
-					if(todo.id === id) { for (let key in updateData) { todo[key] = updateData[key]; } };
+					if(todo.id === id) { for (let key in updateData) { todo[key] = updateData[key] }};
 				});
 				localStorage[this._dbName] = JSON.stringify(data);
 				callback.call(this, todos);

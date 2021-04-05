@@ -15,19 +15,12 @@
 			this.view = view;
 
 			this.view.bind('newTodo', title => this.addItem(title));
-
 			this.view.bind('itemEdit', item => this.editItem(item.id));
-
 			this.view.bind('itemEditDone', item => this.editItemSave(item.id, item.title));
-
 			this.view.bind('itemEditCancel', item => this.editItemCancel(item.id));
-
 			this.view.bind('itemRemove', item => this.removeItem(item.id));
-
 			this.view.bind('itemToggle', item => this.toggleComplete(item.id, item.completed));
-
 			this.view.bind('removeCompleted', () => this.removeCompletedItems());
-
 			this.view.bind('toggleAll', status => this.toggleAll(status.completed));
 		}
 		/**

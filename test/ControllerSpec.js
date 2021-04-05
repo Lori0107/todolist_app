@@ -59,7 +59,7 @@ describe('controller', function () {
 	});
 
 	it('should show entries on start-up', function () {
-		// TODO: write test
+		// Test added
 		let todo = {};
 		setUpModel([todo]);
 
@@ -89,7 +89,7 @@ describe('controller', function () {
 		});
 
 		it('should show active entries', function () {
-			// TODO: write test
+			// Test added
 			let todo = [{title: 'My todo 1', completed: false}];
 			setUpModel(todo);
 
@@ -99,7 +99,7 @@ describe('controller', function () {
 		});
 
 		it('should show completed entries', function () {
-			// TODO: write test
+			// Test added
 			let todo = [{title: 'My todo 1', completed: true}];
 			setUpModel(todo);
 
@@ -152,7 +152,7 @@ describe('controller', function () {
 	});
 
 	it('should highlight "All" filter by default', function () {
-		// TODO: write test
+		// Test added
 		let todo = {id: 42, title: 'my todo', completed: false};
 		setUpModel([todo]);
 
@@ -162,7 +162,7 @@ describe('controller', function () {
 	});
 
 	it('should highlight "Active" filter when switching to active view', function () {
-		// TODO: write test
+		// Test added
 		let todo = {id: 42, title: 'my todo', completed: false};
 		setUpModel([todo]);
 
@@ -172,7 +172,7 @@ describe('controller', function () {
 	});
 
 	it('should highlight "Completed" filter when switching to completed view', function () {
-		// TEST AJOUTÉ
+		// Test added
 		let todo = [{id: 42, title: 'my todo', completed: false}];
 		setUpModel(todo);
 
@@ -183,7 +183,7 @@ describe('controller', function () {
 
 	describe('toggle all', function () {
 		it('should toggle all todos to completed', function () {
-			// TODO: write test
+			// Test added
 			let todos = [
 				{id: 42, title: 'my todo', completed: false},
 				{id: 43, title: 'my todo2', completed: false}
@@ -197,7 +197,7 @@ describe('controller', function () {
 		});
 
 		it('should update the view', function () {
-			// TODO: write test
+			// Test added
 			let todos = [
 				{id: 42, title: 'my todo', completed: false},
 				{id: 43, title: 'my todo2', completed: false}
@@ -214,7 +214,7 @@ describe('controller', function () {
 
 	describe('new todo', function () {
 		it('should add a new todo to the model', function () {
-			// TODO: write test
+			// Test added
 			setUpModel([]);
 
 			subject.setView('');
@@ -260,7 +260,7 @@ describe('controller', function () {
 
 	describe('element removal', function () {
 		it('should remove an entry from the model', function () {
-			// TODO: write test
+			// Test added
 			let todos = [
 				{id: 42, title: 'my todo', completed: false},
 				{id: 43, title: 'my todo2', completed: false}

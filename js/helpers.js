@@ -33,27 +33,16 @@
 	};
 
 	// Find the element's parent with the given tag name:
-	// $parent(qs('a'), 'div');
 	window.$parent = (element, tagName) => {
-		// console.log('Element found: ', element);
-		// console.log('Tagname found: ', tagName);
-
 		if(!element.parentNode) {
-			// console.log('helper 1st');
 			return
 		} else if(element.parentNode.tagName.toLowerCase() === tagName.toLowerCase()) {
-			// console.log('helper 2nd: ', element.parentNode);
 			return element.parentNode;
 		} else {
-			// console.log('helper 3rd: ', element.parentNode, ', ', tagName);
 			return window.$parent(element.parentNode, tagName);
 		}
-		// if(!element.parentNode) return;
-		// if(element.parentNode.tagName.toLowerCase() === tagName.toLowerCase()) return element.parentNode;
-		// return window.$parent(element.parentNode, tagName);
 	};
 
 	// Allow for looping on nodes by chaining:
-	// qsa('.foo').forEach(function () {})
 	NodeList.prototype.forEach = Array.prototype.forEach;
 })(window);
