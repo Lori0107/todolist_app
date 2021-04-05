@@ -17,7 +17,7 @@ Fonctionnement technique
   #### Testing
 
   > L’application dispose de tests gérés via la framework Jasmine.<br>
-    Ouvrir le fichier - SpecRunner.html - pour visionner les tests.
+    Ouvrir le fichier "SpecRunner.html" pour visionner les tests.
 
 Installation du projet
 ----------------------
